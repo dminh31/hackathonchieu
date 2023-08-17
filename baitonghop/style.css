@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header_one{
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.5;
+}
+.tel{
+    width: 200px;
+}
+.cost{
+    width: 500px;
+}
+.icon{
+    width: 150px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.nav_one{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+.nav_bar .header1{
+    height: 100px;
+}
+.header2{
+    display: flex;
+    justify-content: space-around;
+}
+.header1{
+    list-style: none;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.banner{
+    background-image: url(../image/banner1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.banner_content{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+.heading_one{
+    width: 100px;
+    font-size: 70px;
+}
+.p_text{
+    margin-top: 30px;
+    opacity: 0.5;
+}
+.btn{
+    border: none;
+    background-color: snow;
+    margin-top: 30px;
+    width: 220px;
+    height: 80px;
+}
+
+.container{
+    margin-top: 80px;
+}
+.product{
+    display: flex;
+    justify-content: space-between;
+    width: 1480px;
+    margin-left: 20px;
+}
+.image{
+    margin-top: 20px;
+    height: 40vh; 
+    display: flex;
+    justify-content: space-around;
+}
+.img_text{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text_one{
+    padding-right: 90px;
+}
+.text_two{
+    padding-right: 80px;
+}
+
+.aside{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.streetwear{
+    background-image: url(../image/collection-item1.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    width: 50%;
+    height: 100vh;
+    position: relative;
+}
+.streetwear_content{
+    position: absolute;
+    padding-left: 400px;
+    padding-top: 100px;
+}
+.streetwear_content p{
+    font-size: 20px;
+    /* opacity: 0.5; */
+    padding-top: 25px;
+}
+h4{
+    font-size: 80px;
+}
+p .shopcollect{
+    font-size: 20px;
+}
+
+.aside_content{
+    border-radius: 20px;
+    width: 500px;
+    height: 730px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.aside_one{
+    border-radius: 20px;
+    width: 350px;
+    background-image: url(../image/collection-item2.jpg);
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    padding-top: 50px;
+}
+.aside_two{
+    background-image: url(../image/collection-item3.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    margin-top: 360px;
+    border-radius: 20px;
+    padding-top: 50px;
+}
+.footerall{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+li{
+    list-style: none;
+    opacity: 0.5;
+    padding: 5px
+}
+.icon{
+    background-image: url(../image/icon.jpg);
+    background-size: cover;
+    height: 3vh;
+}
+@media screen and (max-width:1200px){
+
+}
+/* em đã cố hết sức...... */
